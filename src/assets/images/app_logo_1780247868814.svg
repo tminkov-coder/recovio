@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Beautiful linear gradient mirroring the light reflective sheen at the top-left and shadows at the bottom-right -->
+    <linearGradient id="medallion-gradient" x1="15%" y1="5%" x2="85%" y2="95%">
+      <stop offset="0%" stop-color="#7CA2B6" />
+      <stop offset="35%" stop-color="#49697A" />
+      <stop offset="70%" stop-color="#233541" />
+      <stop offset="100%" stop-color="#0E171E" />
+    </linearGradient>
+  </defs>
+
+  <!-- Circular medallion container with subtle deep border -->
+  <circle cx="256" cy="256" r="240" fill="url(#medallion-gradient)" stroke="#16222B" stroke-width="2" />
+
+  <!-- LEFT BACK CONTOUR -->
+  <path d="M 155 115 C 105 185, 95 280, 85 340 C 75 420, 115 465, 125 480" 
+        fill="none" 
+        stroke="white" 
+        stroke-width="7" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"
+        opacity="0.95" />
+
+  <!-- RIGHT NECK & SHOULDER PROFILE (Cervical Outline) -->
+  <path d="M 328 48 C 328 110, 248 115, 244 142 C 240 170, 310 195, 365 242 C 395 268, 388 380, 396 460" 
+        fill="none" 
+        stroke="white" 
+        stroke-width="8" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"
+        opacity="0.95" />
+
+  <!-- LOWER RIGHT BACK/LAT CONTOUR -->
+  <path d="M 314 316 C 324 350, 316 420, 302 485" 
+        fill="none" 
+        stroke="white" 
+        stroke-width="7" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"
+        opacity="0.95" />
+
+  <!-- VERTEBRAE COLUMN (STACK OF PILLED LINES) -->
+  <g stroke="white" stroke-width="17" stroke-linecap="round">
+    <!-- C-Spine (Cervical Spine region - shifting left and starting tilted) -->
+    <line x1="195" y1="84" x2="215" y2="75" />
+    <line x1="183" y1="107" x2="207" y2="94" />
+    <line x1="174" y1="131" x2="202" y2="119" />
+    <line x1="168" y1="156" x2="198" y2="148" />
+
+    <!-- T-Spine (Thoracic Spine region - deep left curve deflection) -->
+    <line x1="165" y1="184" x2="195" y2="182" />
+    <line x1="164" y1="213" x2="194" y2="218" />
+    <line x1="164" y1="243" x2="196" y2="254" />
+    <line x1="168" y1="274" x2="202" y2="289" />
+    <line x1="174" y1="305" x2="212" y2="321" />
+
+    <!-- L-Spine (Lumbar Spine region - straightening out & shifting rightward towards hips) -->
+    <line x1="183" y1="337" x2="225" y2="349" />
+    <line x1="196" y1="369" x2="242" y2="373" />
+    <line x1="211" y1="400" x2="257" y2="396" />
+    <line x1="226" y1="429" x2="272" y2="416" />
+    <line x1="237" y1="456" x2="279" y2="435" />
+    <line x1="243" y1="479" x2="281" y2="450" />
+    <line x1="242" y1="497" x2="270" y2="466" />
+  </g>
+</svg>

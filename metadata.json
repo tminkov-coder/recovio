@@ -1,0 +1,6 @@
+{
+  "name": "Recovio Academy Android Project",
+  "description": "Foundational layout, navigation, and RTL UI wireframe simulator for the Recovio Academy Jetpack Compose application.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
